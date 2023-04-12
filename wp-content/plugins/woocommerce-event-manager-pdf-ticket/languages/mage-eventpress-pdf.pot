@@ -1,0 +1,122 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Event Manager Addon: PDF Tickets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-19 05:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: templates/pdf-templates/flat/template.php:205
+msgid "Address:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:209
+msgid "Company:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:207
+msgid "Designation:"
+msgstr ""
+
+#: tickets.php:256
+msgid "Download"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:201
+msgid "Email:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:248
+msgid "Event location:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:188
+msgid "Event:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:213
+msgid "Gender:"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.mage-people.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "MagePeople Team"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:199
+msgid "Name:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:269
+msgid "Order ID:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:189
+msgid "Organized by:"
+msgstr ""
+
+#. Description of the plugin
+msgid "PDF Ticketing system for WooCommerce Event Manager Plugin"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:203
+msgid "Phone:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:190
+msgid "Start Date:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:191
+msgid "Start Time:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:217
+msgid "T-Shirt Size:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:270
+msgid "Ticket number:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:271
+msgid "Ticket price:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:273
+msgid "Ticket type:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:250
+msgid "Total Ticket & Service Included:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:215
+msgid "Vegetarian:"
+msgstr ""
+
+#: templates/pdf-templates/flat/template.php:211
+msgid "Website:"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce Event Manager Addon: PDF Tickets"
+msgstr ""
+
+#: tickets.php:365
+msgid ""
+"Woocommerce Event Manager Addon: PDF Tickets is Dependent on WooCommerce & "
+"Woocommerce Event Manager"
+msgstr ""

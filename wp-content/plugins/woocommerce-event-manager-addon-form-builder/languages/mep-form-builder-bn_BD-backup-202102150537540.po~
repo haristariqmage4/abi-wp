@@ -1,0 +1,765 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Event Manager Addon: Form Builder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-26 07:27+0000\n"
+"PO-Revision-Date: 2021-02-15 05:35+0000\n"
+"Last-Translator: \n"
+"Language-Team: বাংলা\n"
+"Language: bn_BD\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6.1"
+
+#: inc/attendee_list_dashboard.php:220
+msgid " Attendee"
+msgstr "অংশগ্রহনকারী"
+
+#: inc/attendee_list_dashboard.php:215
+msgid " Attendee Found"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:59
+msgid " Gender"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:148 inc/attendee_edit_frontend.php:16
+msgid "Action"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:223 inc/functions.php:723
+msgid "Add New Field"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:157 inc/frontend_submit_functions.php:191
+msgid "Additional Field"
+msgstr ""
+
+#: inc/meta_box.php:80
+msgid "Addres:"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:72 inc/attendee_edit_frontend.php:179
+#: inc/attendee_edit_frontend.php:180 inc/functions.php:597
+msgid "Address"
+msgstr "ঠিকানাগুলো"
+
+#: inc/admin_settings.php:70
+msgid "Address Line 1"
+msgstr ""
+
+#: inc/admin_settings.php:76
+msgid "Address Line 2"
+msgstr ""
+
+#: inc/meta_box.php:352
+msgid "Address:"
+msgstr ""
+
+#: inc/meta_box.php:510
+msgid "After change the New Event and Save the ticket type list will show here"
+msgstr ""
+
+#: inc/attendee_list.php:102
+msgid "Attendee"
+msgstr "অংশগ্রহনকারী"
+
+#: inc/meta_box.php:353
+msgid "Attendee Address"
+msgstr ""
+
+#: inc/meta_box.php:425
+msgid "Attendee Company"
+msgstr ""
+
+#: inc/functions.php:319 inc/functions.php:341
+msgid "Attendee Data already exists"
+msgstr ""
+
+#: inc/functions.php:314
+msgid "Attendee Data successfully synchronized from order data."
+msgstr ""
+
+#: inc/functions.php:1771 inc/functions.php:1787
+msgid ""
+"Attendee Data successfully synchronized from order data. Please wait! this "
+"page is now reloading...."
+msgstr ""
+
+#: inc/meta_box.php:371
+msgid "Attendee Designation"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:272
+msgid "Attendee Edit"
+msgstr ""
+
+#: inc/meta_box.php:325
+msgid "Attendee Email"
+msgstr ""
+
+#: inc/meta_box.php:292
+msgid "Attendee Full Name"
+msgstr ""
+
+#: inc/meta_box.php:443
+msgid "Attendee Gender"
+msgstr ""
+
+#: inc/functions.php:1281
+msgid "Attendee info"
+msgstr ""
+
+#: inc/functions.php:1010
+msgid "Attendee info:"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:6
+msgid "Attendee List"
+msgstr ""
+
+#: inc/admin_settings.php:8
+msgid "Attendee List Column Settings"
+msgstr ""
+
+#: inc/meta_box.php:335
+msgid "Attendee Phone"
+msgstr ""
+
+#: inc/functions.php:412
+msgid "Attendee Registration Form"
+msgstr ""
+
+#: inc/meta_box.php:461
+msgid "Attendee T-Shirt"
+msgstr ""
+
+#: inc/meta_box.php:407
+msgid "Attendee Vegetarian Status"
+msgstr ""
+
+#: inc/meta_box.php:389
+msgid "Attendee Website"
+msgstr ""
+
+#: inc/functions.php:1687
+msgid "Attendees List"
+msgstr ""
+
+#: inc/csv_export.php:77
+msgid "Billing Address 1"
+msgstr ""
+
+#: inc/csv_export.php:79
+msgid "Billing Address 2"
+msgstr ""
+
+#: inc/csv_export.php:81
+msgid "Billing City"
+msgstr ""
+
+#: inc/csv_export.php:75
+msgid "Billing Company"
+msgstr ""
+
+#: inc/csv_export.php:71
+msgid "Billing Email"
+msgstr ""
+
+#: inc/csv_export.php:67
+msgid "Billing First Name"
+msgstr ""
+
+#: inc/csv_export.php:69
+msgid "Billing Last Name"
+msgstr ""
+
+#: inc/csv_export.php:85
+msgid "Billing Post Code"
+msgstr ""
+
+#: inc/csv_export.php:83
+msgid "Billing State"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:175 inc/frontend_submit_functions.php:210
+msgid "Check Box"
+msgstr ""
+
+#: inc/functions.php:766
+msgid "Checkbox"
+msgstr ""
+
+#: inc/admin_settings.php:82
+msgid "City"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:138 inc/admin_settings.php:163
+#: inc/attendee_edit_frontend.php:186 inc/attendee_edit_frontend.php:187
+#: inc/functions.php:1010 inc/functions.php:1341
+msgid "Company"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:141 inc/functions.php:645
+msgid "Company Name"
+msgstr ""
+
+#: inc/admin_settings.php:64
+msgid "Company name"
+msgstr ""
+
+#: inc/meta_box.php:94 inc/meta_box.php:424
+msgid "Company:"
+msgstr ""
+
+#: inc/csv_export.php:40 inc/csv_export.php:41
+msgid "Company?"
+msgstr ""
+
+#: inc/admin_settings.php:100
+msgid "Country"
+msgstr ""
+
+#: inc/admin_settings.php:25
+msgid "CSV Export Status?"
+msgstr ""
+
+#: inc/admin_settings.php:12
+msgid "CSV Settings"
+msgstr ""
+
+#: inc/functions.php:374
+msgid "Custom Form"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:173 inc/frontend_submit_functions.php:207
+#: inc/functions.php:757
+msgid "Date"
+msgstr ""
+
+#: inc/csv_export.php:37 inc/attendee_list_dashboard.php:136
+#: inc/frontend_submit_functions.php:102 inc/admin_settings.php:151
+#: inc/attendee_edit_frontend.php:193 inc/attendee_edit_frontend.php:194
+#: inc/functions.php:610 inc/functions.php:1010 inc/functions.php:1349
+msgid "Designation"
+msgstr ""
+
+#: inc/meta_box.php:101 inc/meta_box.php:370
+msgid "Designation:"
+msgstr ""
+
+#: inc/functions.php:1637 inc/functions.php:1648
+msgid "Download"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:176 inc/frontend_submit_functions.php:211
+#: inc/functions.php:769
+msgid "Dropdown Box"
+msgstr ""
+
+#: inc/functions.php:774
+msgid "dropdown list separated by comma(,)"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:25 inc/attendee_edit_frontend.php:27
+msgid "Edit"
+msgstr ""
+
+#: inc/meta_box.php:542
+msgid "Edit Attendee Information"
+msgstr ""
+
+#: inc/csv_export.php:34 inc/attendee_list_dashboard.php:133
+#: inc/admin_settings.php:52 inc/admin_settings.php:133
+#: inc/attendee_edit_frontend.php:165 inc/attendee_edit_frontend.php:166
+msgid "Email"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:33 inc/functions.php:573
+msgid "Email Address"
+msgstr ""
+
+#: inc/meta_box.php:70 inc/meta_box.php:324
+msgid "Email:"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:304
+msgid "Enable Attendee information edit?"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:106 inc/functions.php:615
+msgid "Enter Label Text Here Default is: Designation"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:77 inc/functions.php:602
+msgid "Enter Label Text Here Default is: Enter Your Address"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:145 inc/functions.php:650
+msgid "Enter Label Text Here Default is: Enter Your Company"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:37 inc/functions.php:578
+msgid "Enter Label Text Here Default is: Enter Your Email"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:24 inc/functions.php:567
+msgid "Enter Label Text Here Default is: Enter Your Name"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:50 inc/functions.php:591
+msgid "Enter Label Text Here Default is: Enter Your Phone"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:119 inc/functions.php:626
+msgid "Enter Label Text Here Default is: Enter Your Website"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:63 inc/functions.php:663
+msgid "Enter Label Text Here Default is: Gender"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:93 inc/functions.php:680
+msgid "Enter Label Text Here Default is: Select TShirt Size"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:132 inc/functions.php:639
+msgid "Enter Label Text Here Default is: Vegetarian?"
+msgstr ""
+
+#: inc/functions.php:1010 inc/functions.php:1312
+msgid "Enter you address"
+msgstr ""
+
+#: inc/functions.php:1010 inc/functions.php:1296
+msgid "Enter Your Email"
+msgstr ""
+
+#: inc/functions.php:1010 inc/functions.php:1288
+msgid "Enter Your Name"
+msgstr ""
+
+#: inc/functions.php:1010 inc/functions.php:1304
+msgid "Enter Your Phone"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:141 inc/meta_box.php:500
+#: inc/functions.php:1121
+msgid "Event"
+msgstr ""
+
+#: inc/meta_box.php:481
+msgid "Event Additional Meta Boxes"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:250
+msgid "Event Attendee List"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:11
+msgid "Event Attendee Registration Form"
+msgstr ""
+
+#: inc/functions.php:43
+msgid "Event Attendees"
+msgstr ""
+
+#: inc/meta_box.php:527
+msgid "Event Date"
+msgstr ""
+
+#: inc/meta_box.php:173
+msgid "Event Date:"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:143 inc/admin_settings.php:195
+msgid "Event Datetime"
+msgstr ""
+
+#: inc/admin_settings.php:182
+msgid "Event Name"
+msgstr ""
+
+#: inc/functions.php:430
+msgid "Event Registration Form"
+msgstr ""
+
+#: inc/meta_box.php:53
+msgid "Event:"
+msgstr ""
+
+#: inc/functions.php:1212
+msgid "Export CSV"
+msgstr ""
+
+#: inc/functions.php:1232
+msgid "Extra Service"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:228 inc/functions.php:1010
+#: inc/functions.php:1333
+msgid "Female"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:160 inc/frontend_submit_functions.php:161
+#: inc/frontend_submit_functions.php:194 inc/frontend_submit_functions.php:195
+#: inc/functions.php:737
+msgid "Field Label"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:183 inc/frontend_submit_functions.php:218
+msgid "Field value"
+msgstr ""
+
+#: inc/functions.php:1518
+msgid "Filter By Order Status "
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:253
+msgid "Filter List By:"
+msgstr ""
+
+#: inc/admin_settings.php:40
+msgid "First name"
+msgstr ""
+
+#: inc/csv_export.php:33 inc/attendee_list_dashboard.php:132
+#: inc/frontend_submit_functions.php:20 inc/functions.php:562
+#: inc/functions.php:1119
+msgid "Full Name"
+msgstr ""
+
+#: inc/meta_box.php:65 inc/meta_box.php:291
+msgid "Full Name:"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:158 inc/attendee_edit_frontend.php:159
+msgid "Fullname"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:139 inc/admin_settings.php:169
+#: inc/attendee_edit_frontend.php:221 inc/functions.php:658
+#: inc/functions.php:1010 inc/functions.php:1329
+msgid "Gender"
+msgstr ""
+
+#: inc/meta_box.php:87 inc/meta_box.php:442
+msgid "Gender:"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.mage-people.com/"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:311
+msgid "If enable, Attendee can be edited from the frontend"
+msgstr ""
+
+#: inc/meta_box.php:501
+msgid ""
+"If you want to change Attendee Event, Please select a new event form here."
+msgstr ""
+
+#: inc/functions.php:1799
+msgid "If you want to enable Same Attendee For reg form Select YES"
+msgstr ""
+
+#: inc/functions.php:685
+msgid "Input Tshirts size, separetd by comma (M,L,XL)"
+msgstr ""
+
+#: inc/admin_settings.php:46
+msgid "Last name"
+msgstr ""
+
+#. Author of the plugin
+msgid "MagePeople Team"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:227 inc/functions.php:1010
+#: inc/functions.php:1332
+msgid "Male"
+msgstr ""
+
+#: inc/admin_settings.php:126
+msgid "Name"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:214 inc/functions.php:1010
+#: inc/functions.php:1369
+msgid "No"
+msgstr ""
+
+#: inc/functions.php:782
+msgid "Not Required"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:142 inc/functions.php:1122
+msgid "Order ID"
+msgstr ""
+
+#: inc/meta_box.php:183
+msgid "Order ID:"
+msgstr ""
+
+#: inc/admin_settings.php:189
+msgid "Order No"
+msgstr ""
+
+#: inc/admin_settings.php:201
+msgid "Order STatus"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:144 inc/functions.php:1123
+msgid "Order Status"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:145
+msgid "Paid Amount"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:146 inc/admin_settings.php:110
+#: inc/admin_settings.php:211
+msgid "Payment Method"
+msgstr ""
+
+#: inc/csv_export.php:35 inc/attendee_list_dashboard.php:134
+#: inc/admin_settings.php:58 inc/admin_settings.php:139
+#: inc/attendee_edit_frontend.php:172 inc/attendee_edit_frontend.php:173
+msgid "Phone"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:46 inc/functions.php:586
+msgid "Phone Number"
+msgstr ""
+
+#: inc/meta_box.php:75 inc/meta_box.php:334
+msgid "Phone:"
+msgstr ""
+
+#: inc/meta_box.php:528
+msgid ""
+"Please Dont Forget to change the corret event datetime otherwise attendee "
+"will not show into the list"
+msgstr ""
+
+#: inc/functions.php:926 inc/functions.php:975 inc/functions.php:1010
+#: inc/functions.php:1010 inc/functions.php:1010 inc/functions.php:1322
+#: inc/functions.php:1331 inc/functions.php:1367
+msgid "Please Select"
+msgstr ""
+
+#: inc/functions.php:373
+msgid "Please Select a Reg. Form"
+msgstr ""
+
+#: inc/functions.php:555
+msgid ""
+"Please Select fields below That you want to enable in attendee registration "
+"form."
+msgstr ""
+
+#: inc/functions.php:396
+msgid "Please Select Registartion Form:"
+msgstr ""
+
+#: inc/functions.php:752
+msgid "Please Select Type"
+msgstr ""
+
+#: inc/admin_settings.php:26
+msgid "Please select which order status data you want to export"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:341 inc/functions.php:192
+msgid "Please wait! Attendee data synchronizing from order data"
+msgstr ""
+
+#: inc/admin_settings.php:94
+msgid "Postcode"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:209 inc/functions.php:763
+msgid "Radio Box"
+msgstr ""
+
+#: inc/functions.php:64
+msgid "Reg From"
+msgstr ""
+
+#: inc/functions.php:783
+msgid "Required"
+msgstr ""
+
+#: inc/attendee_list.php:105
+msgid "See all"
+msgstr "সব দেখুন"
+
+#: inc/attendee_list_dashboard.php:266
+msgid "Select Event"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:171 inc/frontend_submit_functions.php:205
+msgid "Select Type"
+msgstr ""
+
+#: inc/functions.php:675
+msgid "Selection Option(Ex:T-Shirt Size)"
+msgstr ""
+
+#: inc/attendee_list.php:26
+msgid "Show Attendee list?"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:218
+msgid "Showing "
+msgstr ""
+
+#: inc/admin_settings.php:88
+msgid "State"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:135 inc/admin_settings.php:145
+#: inc/functions.php:1010 inc/functions.php:1320
+msgid "T-Shirt Size"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:87
+msgid "T-Shirt Size (Input Tshirts size, separetd by comma (M,L,XL) )"
+msgstr ""
+
+#: inc/meta_box.php:460
+msgid "T-Shirt Size:"
+msgstr ""
+
+#: inc/meta_box.php:124
+msgid "T-Shirt Size?:"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:172 inc/frontend_submit_functions.php:206
+#: inc/functions.php:754
+msgid "Text Box"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:174 inc/frontend_submit_functions.php:208
+#: inc/functions.php:760
+msgid "Textarea"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:166
+msgid ""
+"This field must not be\n"
+"                                        empty, Otherwise data will not save "
+"into database,"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:200
+msgid ""
+"This field must not be\n"
+"                            empty, Otherwise data will not save into "
+"database,"
+msgstr ""
+
+#: inc/functions.php:746
+msgid ""
+"This field must not be empty, Otherwise data will not save into database,"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin will add a Event Attendee Form Builder in Event Page."
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:140 inc/functions.php:1120
+msgid "Ticket"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:131 inc/admin_settings.php:119
+msgid "Ticket No"
+msgstr ""
+
+#: inc/meta_box.php:509 inc/admin_settings.php:175
+msgid "Ticket Type"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:213
+msgid "Total "
+msgstr ""
+
+#: inc/admin_settings.php:105 inc/admin_settings.php:206
+msgid "Total Paid"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:235
+msgid "Tshirt size"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:178 inc/frontend_submit_functions.php:213
+msgid "Type of field"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:165 inc/frontend_submit_functions.php:199
+#: inc/functions.php:743
+msgid "Unique ID"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:254
+msgid "Update"
+msgstr ""
+
+#: inc/meta_box.php:58
+msgid "UserID:"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:182 inc/frontend_submit_functions.php:217
+msgid "Value"
+msgstr ""
+
+#: inc/frontend_submit_functions.php:128 inc/attendee_edit_frontend.php:207
+#: inc/functions.php:634 inc/functions.php:1010 inc/functions.php:1365
+msgid "Vegetarian"
+msgstr ""
+
+#: inc/meta_box.php:406
+msgid "Vegetarian:"
+msgstr ""
+
+#: inc/meta_box.php:116
+msgid "Vegetarian?:"
+msgstr ""
+
+#: inc/csv_export.php:39
+msgid "Vegitarian?"
+msgstr ""
+
+#: inc/meta_box.php:198
+msgid "View Order"
+msgstr ""
+
+#: inc/csv_export.php:38 inc/attendee_list_dashboard.php:137
+#: inc/frontend_submit_functions.php:115 inc/admin_settings.php:157
+#: inc/attendee_edit_frontend.php:200 inc/attendee_edit_frontend.php:201
+#: inc/functions.php:621 inc/functions.php:1010 inc/functions.php:1357
+msgid "Website"
+msgstr ""
+
+#: inc/meta_box.php:108 inc/meta_box.php:388
+msgid "Website:"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce Event Manager Addon: Form Builder"
+msgstr ""
+
+#: addon-builder.php:30
+msgid ""
+"Woocommerce Event Manager Addon: Form Builder is Dependent on WooCommerce & "
+"Woocommerce Event Manager"
+msgstr ""
+
+#: inc/attendee_edit_frontend.php:213 inc/functions.php:1010
+#: inc/functions.php:1368
+msgid "Yes"
+msgstr ""

@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Event Manager Addon: WaitList\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 06:52+0000\n"
+"PO-Revision-Date: 2019-09-26 06:53+0000\n"
+"Last-Translator: shamim <shamim.link@yahoo.com>\n"
+"Language-Team: \n"
+"Language: bn_BD\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#. URI of the plugin
+msgid "http://mage-people.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.mage-people.com/"
+msgstr ""
+
+#: waitlist.php:196 oldd/waitlist.php:174
+msgid "Join the waitlist to be emailed when seats becomes available"
+msgstr ""
+
+#: waitlist.php:199
+msgid "Join Waitlist"
+msgstr ""
+
+#. Author of the plugin
+msgid "MagePeople Team"
+msgstr ""
+
+#: waitlist.php:214 oldd/waitlist.php:191 oldd/waitlist.php:191
+msgid "Send Email to Waitlist"
+msgstr ""
+
+#: waitlist.php:475 waitlist.php:483
+msgid "Show Waitlist Form?"
+msgstr ""
+
+#: waitlist.php:163 oldd/waitlist.php:159
+msgid ""
+"Thanks for join into the waitlist, we will notify you when seat available."
+msgstr ""
+
+#: waitlist.php:330 oldd/waitlist.php:307
+msgid "WaitList"
+msgstr ""
+
+#: waitlist.php:352 oldd/waitlist.php:329 oldd/waitlist.php:329
+msgid "Waitlist"
+msgstr ""
+
+#. Description of the plugin
+msgid "Waitlist Feature fro Woocommerce Event"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce Event Manager Addon: WaitList"
+msgstr ""
+
+#: waitlist.php:516
+msgid ""
+"Woocommerce Event Manager Addon: WaitList is Dependent on WooCommerce & "
+"Woocommerce Event Manager"
+msgstr ""
+
+#: waitlist.php:170 oldd/waitlist.php:166
+msgid "You already in the waitlist."
+msgstr ""
+
+#: waitlist.php:198 oldd/waitlist.php:176
+msgid "Your Email Address"
+msgstr ""
+
+#: waitlist.php:197 oldd/waitlist.php:175
+msgid "Your Name"
+msgstr ""

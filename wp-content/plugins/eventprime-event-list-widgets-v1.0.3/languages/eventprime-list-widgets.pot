@@ -1,0 +1,189 @@
+# EventPrime Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"EventPrime List Widgets "
+"Pot v1.0.2\n"
+"POT-Creation-Date: "
+"2022-01-18 16:35+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Metagauss "
+"<support@metagauss.com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: eventprime-more-widgets.php:47
+#: eventprime-more-widgets.php:54
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: eventprime-more-widgets.php:101
+#: eventprime-more-widgets.php:124
+#: eventprime-more-widgets.php:134
+msgid "Featured"
+msgstr ""
+
+#: eventprime-more-widgets.php:106
+msgid ""
+"Enable this option for "
+"featured event."
+msgstr ""
+
+#: eventprime-more-widgets.php:168
+msgid "List Widgets"
+msgstr ""
+
+#: eventprime-more-widgets.php:169
+msgid ""
+"Display event data on "
+"frontend."
+msgstr ""
+
+#: eventprime-more-widgets.php:183
+msgid ""
+"Event List Widgets won't "
+"work as EventPrime "
+"plugin is not active/"
+"installed"
+msgstr ""
+
+#: extension-update-checker/Puc/v4p10/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: extension-update-checker/Puc/v4p10/Plugin/Ui.php:77
+#, php-format
+msgid ""
+"More information about %s"
+msgstr ""
+
+#: extension-update-checker/Puc/v4p10/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: extension-update-checker/Puc/v4p10/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid ""
+"The %s plugin is up to "
+"date."
+msgstr ""
+
+#: extension-update-checker/Puc/v4p10/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid ""
+"A new version of the %s "
+"plugin is available."
+msgstr ""
+
+#: extension-update-checker/Puc/v4p10/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid ""
+"Could not determine if "
+"updates are available "
+"for %s."
+msgstr ""
+
+#: extension-update-checker/Puc/v4p10/Plugin/Ui.php:223
+#, php-format
+msgid ""
+"Unknown update checker "
+"status \"%s\""
+msgstr ""
+
+#: extension-update-checker/Puc/v4p10/Vcs/PluginUpdateChecker.php:98
+msgid ""
+"There is no changelog "
+"available."
+msgstr ""
+
+#: includes/widgets/class-featured-events.php:30
+msgid "Featured Events"
+msgstr ""
+
+#: includes/widgets/class-featured-events.php:55
+#: includes/widgets/class-popular-events.php:74
+#: includes/widgets/class-similar-events.php:66
+msgid "Dummy Image"
+msgstr ""
+
+#: includes/widgets/class-featured-events.php:88
+#: includes/widgets/class-popular-events.php:112
+#: includes/widgets/class-similar-events.php:102
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/class-featured-events.php:92
+#: includes/widgets/class-popular-events.php:116
+#: includes/widgets/class-similar-events.php:126
+msgid ""
+"Number of events to show:"
+msgstr ""
+
+#: includes/widgets/class-popular-events.php:30
+msgid "Popular Events"
+msgstr ""
+
+#: includes/widgets/class-popular-events.php:77
+msgid "Tickets Sold Out"
+msgstr ""
+
+#: includes/widgets/class-similar-events.php:30
+msgid "Similar Events"
+msgstr ""
+
+#: includes/widgets/class-similar-events.php:45
+msgid ""
+"Please Select Event For "
+"Similar Event From "
+"Widget Area"
+msgstr ""
+
+#: includes/widgets/class-similar-events.php:106
+msgid ""
+"Select Event (For other "
+"than event page):"
+msgstr ""
+
+#: includes/widgets/class-similar-events.php:112
+msgid "Select Event"
+msgstr ""

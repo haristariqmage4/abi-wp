@@ -1,0 +1,18 @@
+2023-03-13T20:29:50+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/theshedu/abigailskitchennyc.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/theshedu/abigailskitchennyc.com/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /home/theshedu/abigailskitchennyc.com/wp-content/plugins/fluid-checkout/inc/checkout-steps.php(3764): WC_Customer->set_billing_email('Schechner')
+#2 /home/theshedu/abigailskitchennyc.com/wp-includes/class-wp-hook.php(308): FluidCheckout_Steps->update_customer_persisted_data(Array)
+#3 /home/theshedu/abigailskitchennyc.com/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#4 /home/theshedu/abigailskitchennyc.com/wp-content/plugins/fluid-checkout/inc/checkout-steps.php(3682): apply_filters('fc_set_parsed_p...', Array)
+#5 /home/theshedu/abigailskitchennyc.com/wp-content/plugins/fluid-checkout/inc/checkout-steps.php(3697): FluidCheckout_Steps->se in /home/theshedu/abigailskitchennyc.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2023-03-13T20:29:57+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /home/theshedu/abigailskitchennyc.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/theshedu/abigailskitchennyc.com/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /home/theshedu/abigailskitchennyc.com/wp-content/plugins/fluid-checkout/inc/checkout-steps.php(3764): WC_Customer->set_billing_email('Schechner')
+#2 /home/theshedu/abigailskitchennyc.com/wp-includes/class-wp-hook.php(308): FluidCheckout_Steps->update_customer_persisted_data(Array)
+#3 /home/theshedu/abigailskitchennyc.com/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#4 /home/theshedu/abigailskitchennyc.com/wp-content/plugins/fluid-checkout/inc/checkout-steps.php(3682): apply_filters('fc_set_parsed_p...', Array)
+#5 /home/theshedu/abigailskitchennyc.com/wp-content/plugins/fluid-checkout/inc/checkout-steps.php(3697): FluidCheckout_Steps->se in /home/theshedu/abigailskitchennyc.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+

@@ -1,0 +1,73 @@
+04-07-2023 @ 18:54:56 - Request
+ Request
+method:
+uri: listLocations
+user-agent: WooCommerce-Square/3.2.0 (WooCommerce/7.0.0; WordPress/6.2)
+headers: Array
+(
+)
+body:
+duration: 0.47668s
+
+04-07-2023 @ 18:54:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Fri, 07 Apr 2023 22:54:56 GMT
+    [content-type] => application/json
+    [content-length] => 450
+    [cf-ray] => 7b45daf16ab53fd3-YYZ
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Accept-Encoding
+    [cf-cache-status] => DYNAMIC
+    [frame-options] => DENY
+    [square-version] => 2021-10-20
+    [squareup--connect--v2--common--versionmetadata-bin] => CgoyMDIxLTEwLTIw
+    [x-content-type-options] => nosniff
+    [x-frame-options] => DENY
+    [x-sq-dc] => iad2b
+    [x-sq-region] => iad2b
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=HfOoLXHoVj5WESAx7Tfz9bXxizU.M_LBwoiKQzQ0SzY-1680908096-0-AfULUaRLaEvlu+DLwQDGRweqW4WA29vJqR0Udbb1aiTZ7f7IeyPs9FzKTXBr4vHD16Pe3R1en4oEz4SOP7d5Xi0=; path=/; expires=Fri, 07-Apr-23 23:24:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "locations": [
+        {
+            "id": "LRYCAYKP6FQ29",
+            "name": "Abigail's Kitchen",
+            "address": {
+                "address_line_1": "193 Henry Street",
+                "address_line_2": "First Floor",
+                "locality": "NEW YORK",
+                "administrative_district_level_1": "NY",
+                "postal_code": "10002",
+                "country": "US"
+            },
+            "timezone": "America\/New_York",
+            "capabilities": [
+                "CREDIT_CARD_PROCESSING",
+                "AUTOMATIC_TRANSFERS"
+            ],
+            "status": "ACTIVE",
+            "created_at": "2022-08-29T22:39:53.649Z",
+            "merchant_id": "ML5PFGCVP1CSP",
+            "country": "US",
+            "language_code": "en-US",
+            "currency": "USD",
+            "business_name": "Abigail's Kitchen NYC",
+            "type": "PHYSICAL",
+            "business_hours": {},
+            "coordinates": {
+                "latitude": 40.71377499999999827196006663143634796142578125,
+                "longitude": -73.9878729999999933397702989168465137481689453125
+            },
+            "mcc": "5499"
+        }
+    ]
+}
+

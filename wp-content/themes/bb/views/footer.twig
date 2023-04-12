@@ -1,0 +1,158 @@
+    <div class="contact-footer toggle-stagger-children">
+            <div class="info">
+                <div>
+                    {{Post(27).meta('opening_times')}}
+                </div>
+            </div>
+
+            {% if post.meta('footer_photo') %}
+                <div style="height: 100%; min-height: 60vh; background:url({{post.meta('footer_photo')}}) left center; background-size: cover;"></div>
+            {% else %}
+                <div style="height: 100%; min-height: 60vh; background:url({{Post(27).meta('footer_photo')}}) left center; background-size: cover;"></div>
+            {% endif %}
+
+        </div>
+
+        <div class="map" style="filter:grayscale(1);">
+            {{Post(27).meta('map')}}
+        </div>
+
+    </div>
+
+</div>{# .content opened in header.twig #}
+
+<div id="footer">
+
+    <div class="footer-inner">
+        <div class="footer-social">
+            <a href="https://www.facebook.com/abigailskitchennyc1/" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/abigailskitchennyc/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.yelp.com/biz/abigails-kitchen-new-york" target="_blank">
+                <i class="fab fa-yelp"></i>
+            </a>
+            <a href="https://www.tripadvisor.com/Restaurant_Review-g60763-d423297-Reviews-Abigail_s_Kitchen_Camaje_Bistro-New_York_City_New_York.html" target="_blank">
+                <i class="fab fa-tripadvisor"></i>
+            </a>
+        </div>
+
+        <div class="footer-credits">
+            <a href="/privacy">
+                PRIVACY POLICY
+            </a>
+            /
+            <a href="#" class="sub">
+                SUBSCRIBE
+            </a>
+            <br>
+            ALL CONTENTS &copy; ABIGAIL’S KITCHEN NYC, 2022
+            <br>
+            WEBSITE BY
+            <a href="https://electrickiwi.co.uk" target="_blank">
+                ELECTRIC KIWI
+            </a>
+        </div>
+    </div>
+</div>
+</div>{# outermost wrapper for grid opened in header.twig .site-wrapper #}
+
+<div class="sub-overlay">
+    <div class="sub-overlay-close-btn">
+        <span>
+            X
+        </span>
+    </div>
+    
+    <div class="sub-overlay-inner">
+
+        <h2>
+            JOIN THE MAILING LIST
+        </h2>
+
+        <p>
+            Subscribe to our mailing list to be the first to hear about upcoming events, new classes and special offers at Abigail’s Kitchen:
+        </p>
+
+        <div class="subscribe-form">
+
+            <form id="sib-form" method="POST" action="https://921b4482.sibforms.com/serve/MUIEAAjS5DFjDw9f6RzPaRGnQmzRlN5147A4h8n6hARQ0up40vDQf37fBrQyG3hN-HY7EyLKD3VFyZtnKRSsqRR59yU5jdeZ11m1c9OnMJeT5xyubnPlL-93uGqDj5moSm7XG8VpGxDdfwQjOK_j3vM7lvlBCzsl-hOU9l9vPaXrprKxQGwHzbuVEkpD_Zf0B4DI4cEkX7BsWk68" data-type="subscription" target="_blank">
+
+                <input class="name" placeholder="FIRSTNAME" id="FIRSTNAME" name="FIRSTNAME" autocomplete="off" data-required="true" required="required">
+                <input class="email" placeholder="EMAIL" id="EMAIL" name="EMAIL" autocomplete="off" data-required="true" required="required">
+                <input class="submit" value="SIGN ME UP!" type="submit">
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<script>
+jQuery (document).ready (function () {
+jQuery ('.sub').click (function () {
+TweenLite.fromTo (jQuery ('.sub-overlay'), 1, {
+opacity: 0
+}, {
+opacity: 1,
+display: 'block'
+});
+});
+
+jQuery ('.sub-overlay-close-btn').click (function () {
+TweenLite.fromTo (jQuery ('.sub-overlay'), 1, {
+opacity: 1,
+display: 'block'
+}, {
+opacity: 0,
+display: 'none'
+});
+});
+});</script>{{fn('wp_footer')}}<script>
+jQuery (window).on ('load', function () {
+
+jQuery ('.toggle-stagger-children').each (function () {
+let children = jQuery (this).children ();
+
+children.each (function (index) {
+jQuery (this).css ({
+'transition-delay': `${
+index / 6
+}s`
+});
+});
+});
+
+gsap.registerPlugin (ScrollTrigger);
+
+const visibleToggles = gsap.utils.toArray ('.toggle-effect,.toggle-stagger-children,.bg-pop-out');
+visibleToggles.forEach ( (vt) => {
+gsap.from (vt, {
+scrollTrigger: {
+trigger: vt,
+markers: false,
+start: "top bottom-=10%",
+onEnter: () => {
+jQuery (vt).addClass ('enable');
+}
+}
+});
+});
+});</script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EQ6HYPSN8K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EQ6HYPSN8K');
+</script>
+
+
+</body></html>

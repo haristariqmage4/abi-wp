@@ -1,0 +1,77 @@
+<div class="wrapper-inner homepage">
+
+    <div class="header toggle-effect bg-pop-out" style="">
+        <div class="bpo-inner" style="background-image: url({{post.meta('main_image')}});"></div>
+    </div>
+
+    <div class="welcome">
+        <div class="section-content toggle-effect">
+            {{post.meta('welcome')}}
+        </div>
+    </div>
+
+    <div class="mailing-list" style="position:relative;height: 50vh; width: 100%;background-color:black;">
+        <div class="toggle-effect bg-pop-out" style="position:absolute;left:0;top:0;width:100%;height:100%;">
+            <div class="bpo-inner" style="background-image: url({{post.meta('mailing_list_background')}});"></div>
+            <div class="ml-bg" style="position:absolute;left:0;top:0;width:100%;height:100%;background: rgba(0, 0, 0, 0.7);">
+            </div>
+        </div>
+
+        <div class="mailing-list-overlay toggle-effect" style="transition-delay:0.2s;">
+            <div>
+                <h2 style="color: #fff !important;">JOIN THE MAILING LIST</h2>
+                Subscribe to our mailing list to be the first to hear about upcoming events, new classes and special offers at Abigail’s Kitchen:<br><br>
+                <form id="sib-form" method="POST" action="https://921b4482.sibforms.com/serve/MUIEAAjS5DFjDw9f6RzPaRGnQmzRlN5147A4h8n6hARQ0up40vDQf37fBrQyG3hN-HY7EyLKD3VFyZtnKRSsqRR59yU5jdeZ11m1c9OnMJeT5xyubnPlL-93uGqDj5moSm7XG8VpGxDdfwQjOK_j3vM7lvlBCzsl-hOU9l9vPaXrprKxQGwHzbuVEkpD_Zf0B4DI4cEkX7BsWk68" data-type="subscription" target="_blank">
+
+<input class="name" placeholder="FIRST NAME" id="FIRSTNAME" name="FIRSTNAME" autocomplete="off" placeholder="FIRSTNAME" data-required="true" required>
+                <input class="email" placeholder="EMAIL ADDRESS" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="EMAIL" data-required="true" required>
+                <input class="submit" value="SIGN ME UP!"  type="submit">
+
+</form>
+            </div>
+        </div>
+    </div>
+
+    <div class="classes home-section">
+        <div class="toggle-effect bg-pop-out" style="height: 100%; min-height: 60vh;">
+
+            <div class="bpo-inner" style="background-image: url({{post.meta('classes_image')}});">
+
+            </div>
+        
+        </div>
+        <div class="info toggle-effect">{{post.meta('classes')}}
+            <a href="/cooking-classes" class="more">FIND OUT MORE</a>
+        </div>
+    </div>
+
+    <div class="dining home-section">
+        <div class="info toggle-effect">{{post.meta('dining')}}
+            <a href="/dinners-in-the-dark" class="more">FIND OUT MORE</a>
+        </div>
+        <div class="toggle-effect bg-pop-out" style="height: 100%; min-height: 60vh;">
+            <div class="bpo-inner" style="background-image: url({{post.meta('dining_image')}});">
+
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="events home-section">
+        <div class="toggle-effect bg-pop-out" style="height: 100%; min-height: 60vh;">
+            <div class="bpo-inner" style="background-image: url({{post.meta('private_events_image')}});">
+
+            </div>
+        </div>
+        <div class="info toggle-effect">{{post.meta('private')}}
+            <a href="/private-events" class="more">INQUIRE</a>
+        </div>
+    </div>
+
+    <div class="banner toggle-effect bg-pop-out" style="height: 50vh; width: 100%;">
+        <div class="bpo-inner" style="background-image: url({{post.meta('photo_background')}});">
+
+        </div>
+    </div>
+</div>
+

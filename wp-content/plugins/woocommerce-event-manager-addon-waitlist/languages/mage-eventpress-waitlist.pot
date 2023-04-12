@@ -1,0 +1,339 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Event Manager Addon: WaitList\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-24 05:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.7.2\n"
+"X-Domain: mage-eventpress-waitlist"
+
+#: inc/cpt.php:24
+msgid ""
+"<span class=\"dashicons dashicons-admin-generic\" style=\"color:green; "
+"padding-right:10px;\"></span>Email  Dynamic Tags List"
+msgstr ""
+
+#: license/settings.php:11
+msgid "<span style=\"color:green\">License</span>"
+msgstr ""
+
+#: inc/functions.php:464
+msgid "Adding to waitlist, Please Wait..."
+msgstr ""
+
+#: inc/admin_settings.php:152
+msgid "Current Date Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:159
+msgid "Current Date Text Color"
+msgstr ""
+
+#: inc/functions.php:577
+msgid "Enter Text For No Seat Available, Join our Waitlist Text"
+msgstr ""
+
+#: inc/functions.php:222
+msgid "Event Date:"
+msgstr ""
+
+#: inc/admin_settings.php:167
+msgid "Event Details Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:182
+msgid "Event Details Button Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:189
+msgid "Event Details Button Text Color"
+msgstr ""
+
+#: inc/admin_settings.php:196
+msgid "Event Details Important Text Color"
+msgstr ""
+
+#: inc/admin_settings.php:174
+msgid "Event Details Text Color"
+msgstr ""
+
+#: inc/functions.php:220
+msgid "Event Name:"
+msgstr ""
+
+#: inc/functions.php:226
+msgid "Form Email:"
+msgstr ""
+
+#: inc/functions.php:225
+msgid "Form Name:"
+msgstr ""
+
+#: inc/admin_settings.php:122
+msgid "Friday Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:129
+msgid "Friday Text Color"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://mage-people.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.mage-people.com/"
+msgstr ""
+
+#: inc/functions.php:434
+msgid "Join the waitlist to be emailed when seats becomes available"
+msgstr ""
+
+#: inc/functions.php:438
+msgid "Join Waitlist"
+msgstr ""
+
+#: license/settings.php:11
+msgid "License"
+msgstr ""
+
+#. Author of the plugin
+msgid "MagePeople Team"
+msgstr ""
+
+#: inc/admin_settings.php:62
+msgid "Monday Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:69
+msgid "Monday Text Color"
+msgstr ""
+
+#: inc/functions.php:576 inc/functions.php:595
+msgid "No Seat Available, Join our Waitlist"
+msgstr ""
+
+#: inc/functions.php:472
+msgid "Please Enter your Name & Email Address"
+msgstr ""
+
+#: inc/functions.php:285
+msgid "Please Write Email Subject & Select a Email From The list"
+msgstr ""
+
+#: inc/admin_settings.php:137
+msgid "Saturday Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:144
+msgid "Saturday Text Color"
+msgstr ""
+
+#: inc/admin_settings.php:32
+msgid "Select a Color for calendar background"
+msgstr ""
+
+#: inc/admin_settings.php:153
+msgid "Select a Color for Current Date background"
+msgstr ""
+
+#: inc/admin_settings.php:160
+msgid "Select a Color for Current Date text"
+msgstr ""
+
+#: inc/admin_settings.php:168
+msgid "Select a Color for Event Details background"
+msgstr ""
+
+#: inc/admin_settings.php:183
+msgid "Select a Color for Event Details Button background"
+msgstr ""
+
+#: inc/admin_settings.php:190
+msgid "Select a Color for Event Details Button text"
+msgstr ""
+
+#: inc/admin_settings.php:197
+msgid "Select a Color for Event Details important text"
+msgstr ""
+
+#: inc/admin_settings.php:175
+msgid "Select a Color for Event Details text"
+msgstr ""
+
+#: inc/admin_settings.php:123
+msgid "Select a Color for Friday background"
+msgstr ""
+
+#: inc/admin_settings.php:130
+msgid "Select a Color for Friday text"
+msgstr ""
+
+#: inc/admin_settings.php:63
+msgid "Select a Color for Monday background"
+msgstr ""
+
+#: inc/admin_settings.php:70
+msgid "Select a Color for Monday text"
+msgstr ""
+
+#: inc/admin_settings.php:138
+msgid "Select a Color for Saturday background"
+msgstr ""
+
+#: inc/admin_settings.php:145
+msgid "Select a Color for Saturday text"
+msgstr ""
+
+#: inc/admin_settings.php:48
+msgid "Select a Color for sunday background"
+msgstr ""
+
+#: inc/admin_settings.php:55
+msgid "Select a Color for sunday text"
+msgstr ""
+
+#: inc/admin_settings.php:108
+msgid "Select a Color for Thusday background"
+msgstr ""
+
+#: inc/admin_settings.php:115
+msgid "Select a Color for Thusday text"
+msgstr ""
+
+#: inc/admin_settings.php:78
+msgid "Select a Color for Tuesday background"
+msgstr ""
+
+#: inc/admin_settings.php:85
+msgid "Select a Color for Tuesday text"
+msgstr ""
+
+#: inc/admin_settings.php:93
+msgid "Select a Color for Wednesday background"
+msgstr ""
+
+#: inc/admin_settings.php:100
+msgid "Select a Color for Wednesday text"
+msgstr ""
+
+#: inc/admin_settings.php:40
+msgid "Select a Color Label Text"
+msgstr ""
+
+#: inc/functions.php:230
+msgid "Select Email Template:"
+msgstr ""
+
+#: inc/send_email_to_list.php:5
+msgid "Send Email to Waitlist"
+msgstr ""
+
+#: inc/functions.php:251
+msgid "Send Waitlist Email"
+msgstr ""
+
+#: inc/functions.php:528 inc/functions.php:537
+msgid "Show Waitlist Form?"
+msgstr ""
+
+#: inc/functions.php:296
+msgid "Sorry, No waitlist found!"
+msgstr ""
+
+#: inc/functions.php:227
+msgid "Subject:"
+msgstr ""
+
+#: inc/admin_settings.php:47
+msgid "Sunday Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:54
+msgid "Sunday Text Color"
+msgstr ""
+
+#: inc/functions.php:396
+msgid ""
+"Thank you for joining the waitlist. We will be in contact if a place becomes "
+"available."
+msgstr ""
+
+#: inc/admin_settings.php:107
+msgid "Thusday Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:114
+msgid "Thusday Text Color"
+msgstr ""
+
+#: inc/admin_settings.php:31
+msgid "Title Section Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:39
+msgid "Title Section text Color"
+msgstr ""
+
+#: inc/admin_settings.php:77
+msgid "Tuesday Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:84
+msgid "Tuesday Text Color"
+msgstr ""
+
+#: inc/functions.php:494
+msgid "WaitList"
+msgstr ""
+
+#: inc/waitlist_items.php:5
+msgid "Waitlist"
+msgstr ""
+
+#. Description of the plugin
+msgid "Waitlist Feature fro Woocommerce Event"
+msgstr ""
+
+#: inc/functions.php:224
+msgid "Waitlist Member Found:"
+msgstr ""
+
+#: inc/admin_settings.php:92
+msgid "Wednesday Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:99
+msgid "Wednesday Text Color"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce Event Manager Addon: WaitList"
+msgstr ""
+
+#: waitlist.php:68
+msgid ""
+"Woocommerce Event Manager Addon: WaitList is Dependent on WooCommerce & "
+"Woocommerce Event Manager"
+msgstr ""
+
+#: inc/functions.php:401
+msgid "You already in the waitlist."
+msgstr ""
+
+#: inc/functions.php:437
+msgid "Your Email Address"
+msgstr ""
+
+#: inc/functions.php:436
+msgid "Your Name"
+msgstr ""

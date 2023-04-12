@@ -1,0 +1,106 @@
+<style>
+    .testimonials {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .logos {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .partners {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-gap: 40px;
+        align-items: center;
+        align-content: center;
+    }
+    .partners img {
+        width: 100%;
+        height: auto;
+    }
+
+    @media screen and (max-width: 1024px) {
+        .partners {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 20px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .partners {
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 30px;
+            width: 100%;
+        }
+    }
+</style>
+
+<div class="page-header bg-pop-out" style="">
+    <div class="bpo-inner" style="background-image: url({{post.meta('header_image')}});"></div>
+</div>
+
+<div class="wrapper-inner">
+
+    <div class="page-content">
+        <h2 class="toggle-effect">{{post.title}}</h2>
+
+        <div class="about-grid toggle-stagger-children">
+            <div>
+                <img class="" src="{{post.meta('bio_photo')}}" style="margin-top:20px;">
+            </div>
+            <div class="">
+                {{post.content}}
+            </div>
+        </div>
+
+        <div class="testimonials home-t-slider">
+            <h2 class="toggle-effect">What People Say</h2>
+
+            <div class="slider-inner toggle-effect" style="background: url({{theme.link}}/assets/img/testimonial-bg2.jpg) center no-repeat; background-size: 100%;">
+                {% for item in post.meta('testimonials') %}
+                    <div class="testimonial" style="text-align:center;">
+                        <div class="t-slide-inner">
+                            <div class="quote">{{item.quote}}</div>
+                            <div class="source">{{item.source}}</div>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <div class="logos">
+            <h2 class="toggle-effect">Featured On</h2>
+            <div class="partners toggle-stagger-children">
+                {% for item in post.meta('logos') %}
+                    <img src="{{item.logo}}">
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        jQuery(document).ready(function() {
+            jQuery('.home-t-slider .slider-inner').slick({
+                infinite: true,
+                dots: false,
+                fade: false,
+                cssEase: 'linear',
+                autoplay: false,
+                pauseOnFocus: false,
+                pauseOnHover: false,
+                speed: 500,
+                pause: 6000
+
+            });
+        });
+    </script>
+</div>

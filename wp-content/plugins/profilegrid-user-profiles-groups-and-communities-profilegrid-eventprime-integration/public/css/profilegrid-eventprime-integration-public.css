@@ -1,0 +1,64 @@
+#pg_event_booking_tab_content .emagic .emNarrow .tab-links.em-tab-vertical-menu .em-tab-nav {
+    border-right: 1px solid rgba(0,0,0,0.1);
+    display: inline-block;
+    position: relative;
+    width: 100%;
+} 
+
+#pg_event_booking_tab_content .emagic .emNarrow .tab-links.em-tab-vertical-menu {
+    width: 25%;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+#pg_event_booking_tab_content .emagic .tab-links.em-tab-vertical-menu {  
+    margin-top: 0px;
+}
+
+#pg_event_booking_tab_content .emagic .emNarrow .em-tab-content-main {
+    width: 75%;
+    display: inline-block;
+    float: left;
+    padding: 0px 20px 20px 20px;
+}
+
+#pg_event_booking_tab_content .emagic .emNarrow .em-menu-tab { 
+    width: 100% !important;
+}
+
+#pg_event_booking_tab_content .emagic .em_username_profile {
+    display: none;
+}
+
+#pg_event_booking_tab_content .emagic .em-tabmenu-container {    
+    margin-top: 0px;
+}
+
+
+#pg_event_booking_tab_content .emagic table.em_profile_table { 
+    margin-top: 0px;
+}
+
+#pg_event_booking_tab_content .emagic .em-tab-content-main .em-tab-content {
+    margin-top: 0px;
+}
+#pg_event_booking_tab_content .emagic .em-menu-tab i.material-icons { 
+    display: none;
+}
+
+#pg_event_booking_tab_content .emagic .emWide .em-tab-nav .emActiveTab,
+#pg_event_booking_tab_content .emagic .emNarrow .em-tab-nav .emActiveTab,
+#pg_event_booking_tab_content .emagic .em-tab-nav .emActiveTab{   
+    background-color: transparent;
+}
+
+#pg_event_booking_tab_content .emagic .em-tab-nav .em-menu-tab {   
+    list-style: none;
+    margin: 0px !important;
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 1em;
+    text-align: left;
+    border-bottom: 0px solid #e1e1e1;
+}
+

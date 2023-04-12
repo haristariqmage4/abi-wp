@@ -1,0 +1,92 @@
+.mep-wailist-form {
+    display: block;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.mep-wailist-form input {
+    display: block;
+    overflow: hidden;
+    margin: 20px auto!important;
+    width: 100%;
+    padding: 10px!important;
+    background: #fff!important;
+}
+span.mepw-success {
+    background: green;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+span.mepw-error {
+    background: red;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.mep-waitlist{
+    border: 0 none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 600;
+    overflow: hidden;
+    padding: 15px 35px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+
+}
+#mep_add_waitlist_button{
+    background: #dd3333 none repeat scroll 0 0;
+    border-color: #dd3333;
+    color: #ffffff !important;
+}
+
+#mage_event_submit .mep-wailist-form input {
+    display: block;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 10px 10px;
+    background: #fff;
+    border: 1px solid #333;
+}
+#mep_add_waitlist_button {
+    background: #dd3333 none repeat scroll 0 0;
+    border-color: #dd3333;
+    color: #ffffff !important;
+    padding: 15px 20px;
+    font-size: 13px;
+}
+.mep-wailist-form {
+    background: #f8f8f8;
+    border: 5px solid #ddd;
+    padding: 30px;
+    font-size: 16px;
+    color: #000;
+}
+span.event-expire-btn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #ff0000;
+    font-size: 20px;
+}
+
+span.mep_waitlist_label.mep-tem3-title-sec {
+    position: absolute;
+    top: 15%;
+    z-index: 999;
+    right: 12%;
+    color: #fff;
+    padding: 4px 20px;
+}

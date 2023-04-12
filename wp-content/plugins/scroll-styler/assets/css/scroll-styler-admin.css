@@ -1,0 +1,80 @@
+@-webkit-keyframes info-box-anim {
+	0%, 10%, 90% { max-height: 500px; }
+	0%, 100% { opacity: 0; }
+	10%, 90% { opacity: 1; }
+	100% { max-height: 0; }
+}
+
+@keyframes info-box-anim {
+	0%, 10%, 90% { max-height: 500px; }
+	0%, 100% { opacity: 0; }
+	10%, 90% { opacity: 1; }
+	100% { max-height: 0; }
+}
+
+.scroll-styler { padding-right: 20px; background-color: #fff; outline: 20px solid #fff; color: #333; }
+.scroll-styler__header-title { text-align: center; }
+.scroll-styler__main { padding-left: 20px; text-align: left; }
+.scroll-styler__aside { position: relative; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); margin-left: 20px; padding: 0 20px; text-align: center; }
+.scroll-styler__header-title { margin: 56px 0 36px 0; font-size: 32px; line-height: 1.2; }
+.scroll-styler__form-info { padding: 20px; background-color: #ffda9f; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); }
+.scroll-styler__form-info-icon { display: inline-block; vertical-align: middle; margin-top: -4px; margin-right: 4px; width: 20px; height: 20px; background-image: url(../img/ic-info.svg); background-repeat: no-repeat; background-position: 0 0; background-size: contain; }
+.scroll-styler__form-info i { font-family: 'Courier New', Courier, monospace; font-style: normal; }
+.scroll-styler__form-row { position: relative; }
+.scroll-styler__form-row:not(:first-child) { margin-top: 20px; }
+.scroll-styler__form-row.scroll-styler__form-row--btn-bar { margin-top: 40px; margin-bottom: 20px; text-align: center; }
+.scroll-styler__form-row--px:after { display: block; content: 'px'; width: 48px; height: 48px; line-height: 48px; position: absolute; bottom: 1px; right: 1px; background-color: #eaeaea; text-align: center; vertical-align: middle; }
+.scroll-styler__form-label { display: block; margin-bottom: 6px; font-size: 15px; color: #000; }
+.scroll-styler__form-label-details { white-space: nowrap; background-color: #eee; color: #666; padding: 2px 8px; font-size: 13px; border-radius: 4px; }
+.scroll-styler__form-control { transition: border-color 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1) !important; -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; display: block; width: 100%; max-width: 100%; height: 50px !important; padding: 5px 10px; background-color: #fff; border: 1px solid #eee; font-size: 16px; line-height: 1.5; }
+.scroll-styler__form-control:focus { border-color: #ccc !important; outline: 0; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.13) !important; }
+.scroll-styler__btn { transition: background-color 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3); width: 100%; display: inline-block; vertical-align: middle; font-size: 16px; line-height: 1.5; padding: 16px 60px; border: 0; background-color: #0073aa; color: #fff; }
+.scroll-styler__btn:hover { cursor: pointer; }
+.scroll-styler__btn:hover,
+.scroll-styler__btn:focus { background-color: #000; outline: 0; }
+.scroll-styler__btn:active { box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
+
+.scroll-styler__info-box-container { overflow: hidden; }
+.scroll-styler__info-box-container--is-toggle { -webkit-animation: info-box-anim 3s ease forwards; animation: info-box-anim 3s ease forwards; }
+.scroll-styler__info-box { margin-bottom: 20px; padding: 20px; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); }
+.scroll-styler__info-box--success { background-color: #2bb673; color: #fff; }
+.scroll-styler__info-box-icon { position: relative; display: inline-block; vertical-align: middle; margin-top: -1px; margin-right: 4px; width: 20px; height: 20px; background-repeat: no-repeat; background-position: 0 0; background-size: contain; }
+.scroll-styler__info-box-icon--success { top: 2px; background-image: url(../img/ic-success.svg); }
+.scroll-styler__info-box-desc { display: inline-block; vertical-align: middle; }
+
+.scroll-styler__promo { margin-top: 80px; }
+.scroll-styler__promo:not(:first-child) { margin-top: 20px; }
+.scroll-styler__promo-link { position: relative; display: block; text-decoration: none; text-align: left; }
+.scroll-styler__promo-link:after { position: absolute; padding: 10px; top: 16px; right: 0; left: 0; background-color: #fff; color: #333; font-size: 14px; opacity: 0; -webkit-transition: opacity 0.2s ease; transition: opacity 0.2s ease; }
+.scroll-styler__promo-link--eav:after { content: 'Elegant Age Verification is a responsive WordPress plugin!'; }
+.scroll-styler__promo-link--gdpr:after { content: 'GDPR Cookie Law is a jQuery plugin and not a WordPress plugin!'; }
+.scroll-styler__promo-link:hover:after { opacity: 1; }
+.scroll-styler__promo-link:focus { outline: none; -webkit-box-shadow: none !important; box-shadow: none !important; }
+.scroll-styler__promo-icon { display: block; width: 300px; height: 300px; margin-left: auto; margin-right: auto; background-repeat: no-repeat; background-position: 50% 50%; }
+.scroll-styler__promo-icon--1 { background-image: url(../img/elegant-age-verification-responsive-age-gate-plugin-for-wordpress.svg); }
+.scroll-styler__promo-icon--2 { background-image: url(../img/gdpr-cookie-law-jquery-gdpr-compliance-plugin.svg); }
+
+/* Minicolors */
+.scroll-styler .minicolors { display: block; }
+.scroll-styler .minicolors-panel { left: auto !important; right: 0; }
+.scroll-styler .minicolors-input { display: block; width: 100%; padding-left: 10px; }
+.scroll-styler .minicolors-input + .minicolors-swatch { width: 48px; height: 48px; top: 1px; right: 1px; left: initial; border: 0; }
+
+@media screen and (min-width: 506px) {
+	.scroll-styler__promo-icon { display: block; width: 400px; height: 400px; }
+}
+
+@media screen and (min-width: 783px) {
+	.scroll-styler__header-title { text-align: left; }
+	.scroll-styler__body:after { display: table; content: ' '; clear: both; }
+	.scroll-styler__main { float: left; padding-left: 0; padding-right: 20px; width: -webkit-calc(100% - 460px); width: calc(100% - 460px); }
+	.scroll-styler__aside { float: right; width: 400px; margin-left: 0; padding: 20px; background-color: #e8e8e8; }
+	.scroll-styler__promo-link { display: inline-block; vertical-align: top; }
+	.scroll-styler__promo-link:after { top: 36px; right: 20px; }
+	.scroll-styler__btn { width: auto; }
+	.scroll-styler__promo { margin-top: 0; }
+}
+
+@media screen and (min-width: 992px) {
+	.scroll-styler__btn { min-width: 300px; }
+}

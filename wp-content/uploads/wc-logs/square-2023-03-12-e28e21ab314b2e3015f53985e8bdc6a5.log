@@ -1,0 +1,69 @@
+03-12-2023 @ 14:33:23 - Request
+ Request
+method:
+uri: listLocations
+user-agent: WooCommerce-Square/3.2.0 (WooCommerce/7.0.0; WordPress/6.1.1)
+headers: Array
+(
+)
+body:
+duration: 0.23645s
+
+03-12-2023 @ 14:33:23 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Sun, 12 Mar 2023 18:33:23 GMT
+    [content-type] => application/json
+    [content-length] => 450
+    [frame-options] => DENY
+    [x-frame-options] => DENY
+    [x-content-type-options] => nosniff
+    [x-xss-protection] => 1; mode=block
+    [square-version] => 2021-10-20
+    [squareup--connect--v2--common--versionmetadata-bin] => CgoyMDIxLTEwLTIw
+    [vary] => Accept-Encoding, User-Agent
+    [content-encoding] => gzip
+    [x-sq-dc] => iad2b
+    [x-sq-region] => iad2b
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "LRYCAYKP6FQ29",
+            "name": "Abigail's Kitchen",
+            "address": {
+                "address_line_1": "193 Henry Street",
+                "address_line_2": "First Floor",
+                "locality": "NEW YORK",
+                "administrative_district_level_1": "NY",
+                "postal_code": "10002",
+                "country": "US"
+            },
+            "timezone": "America\/New_York",
+            "capabilities": [
+                "CREDIT_CARD_PROCESSING",
+                "AUTOMATIC_TRANSFERS"
+            ],
+            "status": "ACTIVE",
+            "created_at": "2022-08-29T22:39:53.649Z",
+            "merchant_id": "ML5PFGCVP1CSP",
+            "country": "US",
+            "language_code": "en-US",
+            "currency": "USD",
+            "business_name": "Abigail's Kitchen NYC",
+            "type": "PHYSICAL",
+            "business_hours": {},
+            "coordinates": {
+                "latitude": 40.71377499999999827196006663143634796142578125,
+                "longitude": -73.9878729999999933397702989168465137481689453125
+            },
+            "mcc": "5499"
+        }
+    ]
+}
+

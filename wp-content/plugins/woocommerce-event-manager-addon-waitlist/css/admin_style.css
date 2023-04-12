@@ -1,0 +1,149 @@
+div#event_wait_list_table_item {}
+
+div#mep_wailtlist_email_send_section {
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    width: 600px;
+    margin: 0 auto;
+}
+
+div#mep_wailtlist_email_send_section ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+div#mep_wailtlist_email_send_section ul li {
+    padding: 0px;
+    margin: 20px;
+    border-bottom: 1px dashed #ddd;
+}
+
+div#mep_wailtlist_email_send_section ul li span.mep-section-name {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+div#mep_wailtlist_email_send_section ul li span.mep-section-data {
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+div#mep_wailtlist_email_send_section ul li input, div#mep_wailtlist_email_send_section ul li select {
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 0;
+    /* background: #333; */
+}
+
+div#mep_wailtlist_email_send_section ul li button {
+    text-align: center;
+    margin: 20px auto;
+    width: 200px;
+    display: block;
+    background: #0177ba;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+span.mep_success {
+    color: green;
+    text-align: center;
+    display: block;
+}
+
+
+
+.attendee_filter_section {
+    background: #fff;
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+.attendee_filter_section ul {
+    padding: 0;
+    margin: 5px 0 0 0;
+    list-style: none;
+    position: relative;
+}
+
+.attendee_filter_section ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+li.mep_re_datelist_label {
+    display: none!important;
+}
+
+button#event_attendee_filter_btn {
+    background: #016087;
+    border: 0;
+    color: #fff;
+    padding: 6px 20px;
+    /* position: absolute;
+    right: 0;
+    top: 3px; */
+}
+ul.attendee_stat {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 20px 0 0 0;
+    list-style: none;
+}
+
+ul.attendee_stat li {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+}
+
+li.showing_attendee {
+    text-align: center!important;
+    font-size: 15px;
+}
+
+li.attendee_export_btn {
+    text-align: right!important;
+}
+
+li.total_attendee {
+    font-size: 15px;
+}
+h5.mep-processing {
+    background: #fff;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    padding: 25px;
+    border: 1px solid;
+}
+a.mep_export_csv {
+    background: #ddd;
+    color: #333;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+}
+span.mep_del_attendee {
+    color: red;
+    cursor: pointer;
+}
+
+.mep_warning {
+    background: #fff3e2;
+    border: 5px solid orange;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    padding: 30px;
+    margin: 10px 0;
+    color: orange;
+}

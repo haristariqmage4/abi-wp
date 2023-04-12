@@ -1,0 +1,39 @@
+<div class="page-header bg-pop-out">
+
+    <div class="bpo-inner" style="background-image: url({{post.meta('header_image')}});"></div> 
+    
+</div>
+
+<div class="wrapper-inner">
+
+    <div class="page-content">
+        <h2>{{post.title}}</h2>
+
+        {{post.content}}
+    </div>
+</div>
+
+{% if is_dd %}
+    <script>
+
+            console.log('noncc');
+            
+            jQuery('.mep-ev-start-date').hide();
+			
+            jQuery('.mep_list_title').after(`<span class="dd-custom-message">{{post.meta('custom_message_page')}}</div>`);
+        
+    </script>
+{% endif %}
+
+
+<script>
+
+    
+
+    //jQuery(document).ready(function(){
+        jQuery('.mage_grid_box,.page-content').addClass('toggle-stagger-children');
+        
+    //});
+    
+
+</script>

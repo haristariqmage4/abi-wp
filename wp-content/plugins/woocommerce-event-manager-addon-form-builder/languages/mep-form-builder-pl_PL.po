@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Event Manager Addon: Form Builder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-26 07:27+0000\n"
+"PO-Revision-Date: 2020-02-27 14:01+0100\n"
+"Last-Translator: shamim <shamim.link@yahoo.com>\n"
+"Language-Team: English (United States)\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2\n"
+
+#: addon-builder.php:545
+msgid "Add New Field"
+msgstr "Dodaj nowe pole"
+
+#: addon-builder.php:393
+msgid "Address"
+msgstr "Adres"
+
+#: addon-builder.php:1013
+msgid "Attendee info"
+msgstr "Informacje o uczestniku"
+
+#: addon-builder.php:768
+msgid "Attendee info:"
+msgstr "Informacje o uczestniku:"
+
+#: addon-builder.php:795
+msgid "Attendees"
+msgstr "Uczestnicy"
+
+#: addon-builder.php:768 addon-builder.php:1013
+msgid "Company"
+msgstr "Firma"
+
+#: addon-builder.php:428
+msgid "Company Name"
+msgstr "Nazwa firmy"
+
+#: addon-builder.php:415 addon-builder.php:768 addon-builder.php:1013
+msgid "Designation"
+msgstr "Przeznaczenie"
+
+#: addon-builder.php:383
+msgid "Email Address"
+msgstr "Adres e-mail"
+
+#: addon-builder.php:415
+msgid "Enter Label Text Here Default is: Designation"
+msgstr "Wpisz tekst etykiety tutaj Domyślnie: Oznaczenie"
+
+#: addon-builder.php:393
+msgid "Enter Label Text Here Default is: Enter Your Address"
+msgstr "Wpisz tekst etykiety tutaj Domyślnie jest: Wpisz swój adres"
+
+#: addon-builder.php:428
+msgid "Enter Label Text Here Default is: Enter Your Company"
+msgstr "Wpisz tekst etykiety tutaj Domyślnie jest: Wprowadź swoją firmę"
+
+#: addon-builder.php:383
+msgid "Enter Label Text Here Default is: Enter Your Email"
+msgstr "Wpisz tekst etykiety tutaj Domyślnie: Wpisz swój adres e-mail"
+
+#: addon-builder.php:378
+msgid "Enter Label Text Here Default is: Enter Your Name"
+msgstr ""
+"Wpisz tekst etykiety tutaj Domyślnie jest: Wpisz swoje imię i nazwisko"
+
+#: addon-builder.php:388
+msgid "Enter Label Text Here Default is: Enter Your Phone"
+msgstr "Wpisz tekst etykiety tutaj Domyślnie jest: Wprowadź swój telefon"
+
+#: addon-builder.php:419
+msgid "Enter Label Text Here Default is: Enter Your Website"
+msgstr ""
+"Wpisz tekst etykiety tutaj Domyślnie: Wejdź na swoją stronę internetową"
+
+#: addon-builder.php:432
+msgid "Enter Label Text Here Default is: Gender"
+msgstr "Wpisz tekst etykiety tutaj Domyślnie jest: Płeć"
+
+#: addon-builder.php:407
+msgid "Enter Label Text Here Default is: Select TShirt Size"
+msgstr "Tutaj wprowadź tekst etykiety Domyślnie: Wybierz rozmiar koszulki"
+
+#: addon-builder.php:424
+msgid "Enter Label Text Here Default is: Vegetarian?"
+msgstr "Tutaj wpisz tekst etykiety Domyślnie: wegetariańskie?"
+
+#: addon-builder.php:768 addon-builder.php:1013
+msgid "Enter you address"
+msgstr "Wpisz swój adres"
+
+#: addon-builder.php:768 addon-builder.php:1013
+msgid "Enter Your Email"
+msgstr "Wprowadź swój email"
+
+#: addon-builder.php:768 addon-builder.php:1013
+msgid "Enter Your Name"
+msgstr "Wpisz swoje imię"
+
+#: addon-builder.php:768 addon-builder.php:1013
+msgid "Enter Your Phone"
+msgstr "Wpisz swój telefon"
+
+#: addon-builder.php:875
+msgid "Event"
+msgstr "Zdarzenie"
+
+#: addon-builder.php:796
+msgid "Export"
+msgstr "Eksport"
+
+#: addon-builder.php:768 addon-builder.php:1013
+msgid "Female"
+msgstr "kobieta"
+
+#: addon-builder.php:1216
+msgid "Filter By Order Status "
+msgstr "Filtruj według statusu zamówienia"
+
+#: addon-builder.php:378 addon-builder.php:869
+msgid "Full Name"
+msgstr "Pełne imię i nazwisko"
+
+#: addon-builder.php:432 addon-builder.php:768 addon-builder.php:1013
+msgid "Gender"
+msgstr "Płeć"
+
+#. URI of the plugin
+msgid "http://mage-people.com"
+msgstr "http://mage-people.com"
+
+#. Author URI of the plugin
+msgid "http://www.mage-people.com/"
+msgstr "http://www.mage-people.com/"
+
+#: addon-builder.php:402
+msgid "Input Tshirts size, separetd by comma (M,L,XL)"
+msgstr "Podaj rozmiar koszulki, oddziel przecinkami (M, L, XL)"
+
+#. Author of the plugin
+msgid "MagePeople Team"
+msgstr "MagePeople Team"
+
+#: addon-builder.php:768 addon-builder.php:1013
+msgid "Male"
+msgstr "Męski"
+
+#: addon-builder.php:768 addon-builder.php:1013
+msgid "No"
+msgstr "Numer"
+
+#: addon-builder.php:876
+msgid "Order ID"
+msgstr "ID zamówienia"
+
+#: addon-builder.php:877
+msgid "Order Status"
+msgstr "Status zamówienia"
+
+#: addon-builder.php:388
+msgid "Phone Number"
+msgstr "Numer telefonu"
+
+#: addon-builder.php:685 addon-builder.php:731 addon-builder.php:768
+#: addon-builder.php:1013
+msgid "Please Select"
+msgstr "Proszę wybrać"
+
+#: addon-builder.php:399 addon-builder.php:768 addon-builder.php:1013
+msgid "T-Shirt Size"
+msgstr "Rozmiar koszulki"
+
+#: addon-builder.php:476 addon-builder.php:515
+msgid ""
+"This field must not be empty, Otherwise data will not save into database,"
+msgstr ""
+"To pole nie może być puste, w przeciwnym razie dane nie zostaną zapisane w "
+"bazie danych,"
+
+#. Description of the plugin
+msgid "This plugin will add a Event Attendee Form Builder in Event Page."
+msgstr ""
+"Ta wtyczka doda Konstruktora formularzy uczestników wydarzenia na stronie "
+"wydarzenia."
+
+#: addon-builder.php:874
+msgid "Ticket"
+msgstr "Bilet"
+
+#: addon-builder.php:424 addon-builder.php:768 addon-builder.php:1013
+msgid "Vegetarian"
+msgstr "Wegetariański"
+
+#: addon-builder.php:419 addon-builder.php:768 addon-builder.php:1013
+msgid "Website"
+msgstr "Strona internetowa"
+
+#. Name of the plugin
+msgid "Woocommerce Event Manager Addon: Form Builder"
+msgstr "Woocommerce Event Manager Addon: Form Builder"
+
+#: addon-builder.php:1317
+msgid ""
+"Woocommerce Event Manager Addon: Form Builder is Dependent on WooCommerce & "
+"Woocommerce Event Manager"
+msgstr ""
+"Dodatek Woocommerce Event Manager: Kreator formularzy jest zależny od "
+"WooCommerce & Woocommerce Event Manager"
+
+#: addon-builder.php:768 addon-builder.php:1013
+msgid "Yes"
+msgstr "tak"

@@ -21,7 +21,7 @@ if (!function_exists('mep_ev_ticket_type')) {
                     <tr>
                         <th>
                         <span class="tkt-qty" style="text-align: left;">
-                            <?php echo _e('Ticket type','mage-eventpress'); ?> 
+                            <?php echo _e('Ticket type','mage-eventpress'); ?>
                         </span>
                         </th>
                         <th>
@@ -32,7 +32,7 @@ if (!function_exists('mep_ev_ticket_type')) {
                         <th>
                         <span class="tkt-pric" style="text-align: center;">
                             <?php echo mep_get_option('mep_per_ticket_price_text', 'label_setting_sec') ? mep_get_option('mep_per_ticket_price_text', 'label_setting_sec') : esc_html__('Per Ticket Price:', 'mage-eventpress');  ?>
-                        </span> 
+                        </span>
                         </th>
                     </tr>
                 </thead>
@@ -44,67 +44,67 @@ if (!function_exists('mep_ev_ticket_type')) {
         $content = ob_get_clean();
         echo apply_filters('mage_event_ticket_type_list', $content, $post_id, $event_meta,$ticket_type_label,$select_date_label);
         ?>
-        <script type="text/javascript">
-            jQuery(document).ready(function($) {
-                $('.qty_dec').on('click', function() {
-                    let target = $(this).siblings('input');
-                    let value = parseInt(target.val()) - 1;
-                    qtyPlace(target, value);
-                });
-                $('.qty_inc').on('click', function() {
-                    let target = $(this).siblings('input');
-                    let value = parseInt(target.val()) + 1;
-                    qtyPlace(target, value);
-                });
-                $('.mage_input_group input').on('keyup', function() {
-                    let target = $(this);
-                    let value = parseInt(target.val());
-                    if (target.val().length > 0) {
-                        qtyPlace(target, value);
-                    }
-
-                });
-                $('#mage_event_submit').on('submit', function(e) {
-					//e.stopPropagation();
-                    if (mageErrorQty()) {
-                        return true;
-                    }
-                    return false;
-                });
-                $("select[name='option_qty[]']").on('blur', function() {
-                    mageErrorQty();
-                });
-
-                function qtyPlace(target, value) {
-                    let minSeat = parseInt(target.attr('min'));
-                    let maxSeat = parseInt(target.attr('max'));
-                    if (value < minSeat || isNaN(value)) {
-                        value = minSeat;
-                    }
-                    if (value > maxSeat) {
-                        value = maxSeat
-                    }
-                    target.val(value).change();
-                    mageErrorQty();
-
-                }
-
-                function mageErrorQty() {
-                    let total_ticket = 0;
-                    let target = $("[name='option_qty[]']");
-                    target.each(function(index) {
-                        total_ticket = total_ticket + parseInt($(this).val());
-                    });
-                    if (total_ticket > 0) {
-                        target.removeClass('mage_error');
-                        return true;
-                    }
-                    target.addClass('mage_error');
-                    return false;
-                }
-
-            });
-        </script>
+<!--        <script type="text/javascript">-->
+<!--            jQuery(document).ready(function($) {-->
+<!--                $('.qty_dec').on('click', function() {-->
+<!--                    let target = $(this).siblings('input');-->
+<!--                    let value = parseInt(target.val()) - 1;-->
+<!--                    qtyPlace(target, value);-->
+<!--                });-->
+<!--                $('.qty_inc').on('click', function() {-->
+<!--                    let target = $(this).siblings('input');-->
+<!--                    let value = parseInt(target.val()) + 1;-->
+<!--                    qtyPlace(target, value);-->
+<!--                });-->
+<!--                $('.mage_input_group input').on('keyup', function() {-->
+<!--                    let target = $(this);-->
+<!--                    let value = parseInt(target.val());-->
+<!--                    if (target.val().length > 0) {-->
+<!--                        qtyPlace(target, value);-->
+<!--                    }-->
+<!---->
+<!--                });-->
+<!--                $('#mage_event_submit').on('submit', function(e) {-->
+<!--					//e.stopPropagation();-->
+<!--                    if (mageErrorQty()) {-->
+<!--                        return true;-->
+<!--                    }-->
+<!--                    return false;-->
+<!--                });-->
+<!--                $("select[name='option_qty[]']").on('blur', function() {-->
+<!--                    mageErrorQty();-->
+<!--                });-->
+<!---->
+<!--                function qtyPlace(target, value) {-->
+<!--                    let minSeat = parseInt(target.attr('min'));-->
+<!--                    let maxSeat = parseInt(target.attr('max'));-->
+<!--                    if (value < minSeat || isNaN(value)) {-->
+<!--                        value = minSeat;-->
+<!--                    }-->
+<!--                    if (value > maxSeat) {-->
+<!--                        value = maxSeat-->
+<!--                    }-->
+<!--                    target.val(value).change();-->
+<!--                    mageErrorQty();-->
+<!---->
+<!--                }-->
+<!---->
+<!--                function mageErrorQty() {-->
+<!--                    let total_ticket = 0;-->
+<!--                    let target = $("[name='option_qty[]']");-->
+<!--                    target.each(function(index) {-->
+<!--                        total_ticket = total_ticket + parseInt($(this).val());-->
+<!--                    });-->
+<!--                    if (total_ticket > 0) {-->
+<!--                        target.removeClass('mage_error');-->
+<!--                        return true;-->
+<!--                    }-->
+<!--                    target.addClass('mage_error');-->
+<!--                    return false;-->
+<!--                }-->
+<!---->
+<!--            });-->
+<!--        </script>-->
 <?php
     }
 }

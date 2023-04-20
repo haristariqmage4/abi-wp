@@ -92,7 +92,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-    jQuery (document).ready (function () {
+    jQuery (document).ready (function ($) {
         jQuery ('.sub').click (function () {
             TweenLite.fromTo (jQuery ('.sub-overlay'), 1, {
                 opacity: 0
@@ -118,18 +118,13 @@
             }
         );
 
-        $('.lightbox-target').on('click',function(e){
-            // $(this).removeClass('active');
+        $('a.lightbox-close').on('click',function(e){
+            e.preventDefault();
+            $(this).parents('.lightbox-target').removeClass('active');
 
-            var container = $('.container');
-            if (!container.is(e.target) && container.has(e.target).length === 0){
-                $(this).removeClass('active');
-            }
         });
 
-        // $('.lightbox-close').on('click',function(){
-        //     $(this).parents('.lightbox-target').removeClass('active');
-        // });
+
 
     });
 </script>{{fn('wp_footer')}}<script>
@@ -292,17 +287,7 @@
             });
         });
 
-        $('.card-main').children('.lightbox').hover(
-            function(){
-                $(this).parent('.card-main').children('.lightbox-target').addClass('active');
-            }
-        );
-        $('.lightbox-target').on('click',function(e){
-            var container = $('.container');
-            if (!container.is(e.target) && container.has(e.target).length === 0){
-                $(this).removeClass('active');
-            }
-        });
+
         $('.qty_dec').on('click', function() {
             let target = $(this).siblings('input');
             let value = parseInt(target.val()) - 1;

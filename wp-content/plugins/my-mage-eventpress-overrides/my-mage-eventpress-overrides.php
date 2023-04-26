@@ -60,6 +60,7 @@ function save_new_field_value($post_id)
         $new[$i]['option_qty_t_type'] = $option_qty_t_type;
         $new[$i]['option_sale_end_date'] = $option_sale_end_date;
         $new[$i]['option_sale_end_time'] = $option_sale_end_time;
+        $new[$i]['option_sale_end_date_t'] = stripslashes(strip_tags($option_sale_end_date . ' ' . $option_sale_end_time));;
 
     }
     $ticket_type_list = apply_filters('mep_ticket_type_arr_save', $new);

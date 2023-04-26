@@ -11,35 +11,6 @@ Version: 1.0
 
 // Plugin code goes here
 
-//add_action('admin_footer-edit.php', 'custom_bulk_admin_footer');
-//global $post_type;
-//function custom_bulk_admin_footer()
-//{
-//    global $post_type;
-//    if ('post' === $post_type) {
-//        ?>
-<!--        <script type="text/javascript">-->
-<!--            jQuery(document).ready(function () {-->
-<!--                jQuery('<option>').val('your_bulk_action_name').text('Your Bulk Action Label').appendTo('select[name=\'action\'], select[name=\'action2\']');-->
-<!--            });-->
-<!--        </script>-->
-<!--        --><?php
-//    }
-//}
-//
-//add_action('admin_action_your_bulk_action_name', 'your_bulk_action_function');
-//function your_bulk_action_function()
-//{
-//    // Your bulk action code here
-//}
-//
-//add_filter('bulk_actions-' . $post_type, 'register_your_bulk_action');
-//function register_your_bulk_action($bulk_actions)
-//{
-//    $bulk_actions['your_bulk_action_name'] = 'Your Bulk Action Label';
-//    return $bulk_actions;
-//}
-
 add_action('bulk_edit_custom_box', 'mep_quick_edit_fields', 10, 2);
 function mep_quick_edit_fields($column_name, $post_type)
 {
@@ -48,8 +19,10 @@ function mep_quick_edit_fields($column_name, $post_type)
         ?>
         <fieldset class="inline-edit-col-center">
             <div class="inline-edit-col">
-                <label for="">Description</label>
-                <textarea name="content" id="" cols="30" rows="10"></textarea>
+                <label for="mep_event_ticket">Description</label><textarea name="content" id="mep_event_ticket"
+                                                                           cols="30" rows="10"></textarea>
+                <label for="mep_event_ticket_price">Event price</label><input type="text" name="mep_event_ticket_price"
+                                                                              id="mep_event_ticket_price"/>
             </div>
         </fieldset>
         <?php
@@ -60,36 +33,62 @@ add_action('save_post', 'save_new_field_value');
 
 function save_new_field_value($post_id)
 {
-    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
         return;
     }
-    remove_action( 'save_post', 'save_new_field_value' );
-    $new_field_value =$_REQUEST['content'];
+    remove_action('save_post', 'save_new_field_value');
+    $new_field_value = $_REQUEST['content'];
+    $mep_event_ticket_price_field = $_REQUEST['mep_event_ticket_price'];
+    $mep_event_ticket_type = get_post_meta($post_id, 'mep_event_ticket_type', true);
+    $new = [];
+    for ($i = 0; $i < count($mep_event_ticket_type); $i++) {
+        $option_name_t = isset($mep_event_ticket_type[$i]['option_name_t']) ? $mep_event_ticket_type[$i]['option_name_t'] : '';
+        $option_details_t = isset($mep_event_ticket_type[$i]['option_details_t']) ? $mep_event_ticket_type[$i]['option_details_t'] : '';
+        $option_qty_t = isset($mep_event_ticket_type[$i]['option_qty_t']) ? $mep_event_ticket_type[$i]['option_qty_t'] : 0;
+        $option_default_qty_t = isset($mep_event_ticket_type[$i]['option_default_qty_t']) ? $mep_event_ticket_type[$i]['option_default_qty_t'] : 0;
+        $option_rsv_t = isset($mep_event_ticket_type[$i]['option_rsv_t']) ? $mep_event_ticket_type[$i]['option_rsv_t'] : 0;
+        $option_qty_t_type = isset($mep_event_ticket_type[$i]['option_qty_t_type']) ? $mep_event_ticket_type[$i]['option_qty_t_type'] : 0;
+        $option_sale_end_date = isset($mep_event_ticket_type[$i]['option_sale_end_date']) ? $mep_event_ticket_type[$i]['option_sale_end_date'] : '';
+        $option_sale_end_time = isset($mep_event_ticket_type[$i]['option_sale_end_time']) ? $mep_event_ticket_type[$i]['option_sale_end_time'] : '';
 
-    $my_post = [
-        'ID' => $post_id,
-        'post_content' => '<p>'.$new_field_value .'</p>',
-    ];
-    wp_update_post( $my_post );
-    add_action( 'save_post', 'save_new_field_value' );
+        $new[$i]['option_name_t'] = $option_name_t;
+        $new[$i]['option_details_t'] = $option_details_t;
+        $new[$i]['option_price_t'] = $mep_event_ticket_price_field;
+        $new[$i]['option_qty_t'] = $option_qty_t;
+        $new[$i]['option_rsv_t'] = $option_rsv_t;
+        $new[$i]['option_default_qty_t'] = $option_default_qty_t;
+        $new[$i]['option_qty_t_type'] = $option_qty_t_type;
+        $new[$i]['option_sale_end_date'] = $option_sale_end_date;
+        $new[$i]['option_sale_end_time'] = $option_sale_end_time;
+
+    }
+    $ticket_type_list = apply_filters('mep_ticket_type_arr_save', $new);
+
+    update_post_meta($post_id, 'mep_event_ticket_type', $ticket_type_list);
+
+    $my_post = ['ID' => $post_id, 'post_content' => '<p>' . $new_field_value . '</p>',];
+    wp_update_post($my_post);
+    add_action('save_post', 'save_new_field_value');
 }
+
 wp_enqueue_script('jquery');
-function add_this(){ ?>
-<script>
-    jQuery(document).ready(function($) {
-        console.log('ddd');
-        // Open the modal when the button is clicked
-        $('#mep_event_ticket').click(function() {
+function add_this()
+{ ?>
+    <script>
+        jQuery(document).ready(function ($) {
+            console.log('ddd');
+            // Open the modal when the button is clicked
+            $('#mep_event_ticket').click(function () {
 
-            $('#my-modal').fadeIn();
-        });
+                $('#my-modal').fadeIn();
+            });
 
-        // Close the modal when the close button is clicked
-        $('.close').click(function() {
-            $('#my-modal').fadeOut();
+            // Close the modal when the close button is clicked
+            $('.close').click(function () {
+                $('#my-modal').fadeOut();
+            });
         });
-    });
-</script>
+    </script>
 
 <?php }
 
@@ -104,7 +103,7 @@ function add_this(){ ?>
 <!--    </div>-->
 <!--</div>-->
 <!---->
-<!--<!-- CSS code -->-->
+<!-- CSS code -->
 <!--<style>-->
 <!--    .modal {-->
 <!--        display: none;-->
